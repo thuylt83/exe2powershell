@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Exe2powershell : exe2powershell - exe2bat reborn for modern Windows">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Exe2powershell</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/yanncam/exe2powershell">View on GitHub</a>
+
+          <h1 id="project_title">Exe2powershell</h1>
+          <h2 id="project_tagline">exe2powershell - exe2bat reborn for modern Windows</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/yanncam/exe2powershell/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/yanncam/exe2powershell/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="exe2powershell" class="anchor" href="#exe2powershell" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>exe2powershell</h1>
+
+<p><strong>exe2powershell - exe2bat reborn for modern Windows</strong></p>
+
+<p>exe2bat reborn in exe2powershell for modern Windows
+initial author ninar1, based on riftor work, and modernized by ycam
+exe2powershell - keep up to date : <a href="http://www.asafety.fr">www.asafety.fr</a></p>
+
+<p>Main code taken from Riftors "exe2hex".</p>
+
+<p>Adapted for Windows BAT file by ninar1.</p>
+
+<p>Modernized to newer Windows systems by Yann CAM (ycam - <a href="http://www.asafety.fr">http://www.asafety.fr</a>)</p>
+
+<p>This version is modernized from exe2bat to work with modern Windows version.
+exe2bat have limitation :</p>
+
+<ul>
+<li>Need "debug.exe" available on the target computer (16-bit application removed on Windows 7 x64 but available on Windows 7 x86)</li>
+<li>Limit input exe to 64kB</li>
+</ul>
+
+<p>exe2powershell replace the need of "debug.exe" by a PowerShell command line available on all Windows since Windows 7 / 2008.
+There is no more limitation in input exe size.</p>
+
+<p>How to use :</p>
+
+<div class="highlight highlight-source-shell"><pre>C:<span class="pl-cce">\e</span>xe2powershell<span class="pl-cce">\b</span>in<span class="pl-k">&gt;</span>exe2powershell.exe
+  ______          ___  _____                       _____ _          _ _
+ <span class="pl-k">|</span>  ____<span class="pl-k">|</span>        <span class="pl-k">|</span>__ <span class="pl-cce">\|</span>  __ <span class="pl-cce">\ </span>                    / ____<span class="pl-k">|</span> <span class="pl-k">|</span>        <span class="pl-k">|</span> <span class="pl-k">|</span> <span class="pl-k">|</span>
+ <span class="pl-k">|</span> <span class="pl-k">|</span>__  __  _____   ) <span class="pl-k">|</span> <span class="pl-k">|</span>__) <span class="pl-k">|</span>____      _____ _ _<span class="pl-k">|</span> (___ <span class="pl-k">|</span> <span class="pl-k">|</span>__   ___<span class="pl-k">|</span> <span class="pl-k">|</span> <span class="pl-k">|</span>
+ <span class="pl-k">|</span>  __<span class="pl-k">|</span> <span class="pl-cce">\ \/</span> / _ <span class="pl-cce">\ </span>/ /<span class="pl-k">|</span>  ___/ _ <span class="pl-cce">\ \ </span>/<span class="pl-cce">\ </span>/ / _ <span class="pl-cce">\ </span><span class="pl-s"><span class="pl-pds">'</span>__\___ \| <span class="pl-pds">'</span></span>_ <span class="pl-cce">\ </span>/ _ <span class="pl-cce">\ </span><span class="pl-k">|</span> <span class="pl-k">|</span>
+ <span class="pl-k">|</span> <span class="pl-k">|</span>____ <span class="pl-k">&gt;</span>  <span class="pl-k">&lt;</span>  __// /_<span class="pl-k">|</span> <span class="pl-k">|</span>  <span class="pl-k">|</span> (_) <span class="pl-cce">\ </span>V  V /  __/ <span class="pl-k">|</span>  ____) <span class="pl-k">|</span> <span class="pl-k">|</span> <span class="pl-k">|</span> <span class="pl-k">|</span>  __/ <span class="pl-k">|</span> <span class="pl-k">|</span>
+ <span class="pl-k">|</span>______/_/<span class="pl-cce">\_\_</span>__<span class="pl-k">|</span>____<span class="pl-k">|</span>_<span class="pl-k">|</span>   <span class="pl-cce">\_</span>__/ <span class="pl-cce">\_</span>/<span class="pl-cce">\_</span>/ <span class="pl-cce">\_</span>__<span class="pl-k">|</span>_<span class="pl-k">|</span> <span class="pl-k">|</span>_____/<span class="pl-k">|</span>_<span class="pl-k">|</span> <span class="pl-k">|</span>_<span class="pl-k">|</span><span class="pl-cce">\_</span>__<span class="pl-k">|</span>_<span class="pl-k">|</span>_<span class="pl-k">|</span>
+
+        [ exe2bat reborn <span class="pl-k">in</span> exe2powershell <span class="pl-k">for</span> modern Windows ]
+ [ initial author ninar1, based on riftor work, and modernized by ycam ]
+    [ exe2powershell version 1.0 - keep up to date <span class="pl-c1">:</span> www.asafety.fr ]
+
+ [<span class="pl-k">*</span>] Usage <span class="pl-c1">:</span> exe2powershell.exe inputfile outputfile
+ [<span class="pl-k">*</span>] e.g.  <span class="pl-c1">:</span> exe2powershell.exe nc.exe nc.bat</pre></div>
+
+<p>Credits : Riftor, ninar1, BCK and ycam</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Exe2powershell maintained by <a href="https://github.com/yanncam">yanncam</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
