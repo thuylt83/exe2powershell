@@ -37,4 +37,8 @@ C:\exe2powershell\bin>exe2powershell.exe
  [*] Usage : exe2powershell.exe inputfile outputfile
  [*] e.g.  : exe2powershell.exe nc.exe nc.bat
 ```
+
+* Details (in french) :
+    * https://www.asafety.fr/vuln-exploit-poc/windows-dos-powershell-upload-de-fichier-en-ligne-de-commande-one-liner/
+
 Credits : Riftor, ninar1, BCK and ycam
