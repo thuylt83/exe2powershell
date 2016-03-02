@@ -20,6 +20,7 @@ There is no more limitation in input exe size.
 How to use :
 
 C:\Users\admin\Desktop>exe2powershell.exe nc.exe nc.bat
+
 [*] Finished: nc.exe > nc.bat
 
 Credits : Riftor, ninar1, BCK and ycam
