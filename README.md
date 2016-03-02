@@ -6,7 +6,9 @@ initial author ninar1, based on riftor work, and modernized by ycam
 exe2powershell - keep up to date : www.asafety.fr
          
 Main code taken from Riftors "exe2hex" (riftor@sec33.com - http://home.graffiti.net/riftor615/)
+
 Adapted for Windows BAT file by ninar1.
+
 Modernized to newer Windows systems by Yann CAM (ycam - http://www.asafety.fr)
 
 This version is modernized from exe2bat to work with modern Windows version.
