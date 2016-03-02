@@ -18,7 +18,8 @@ exe2powershell replace the need of "debug.exe" by a PowerShell command line avai
 There is no more limitation in input exe size.
 
 How to use :
-         C:\Users\admin\Desktop>exe2powershell.exe nc.exe nc.bat
-         [*] Finished: nc.exe > nc.bat
+
+C:\Users\admin\Desktop>exe2powershell.exe nc.exe nc.bat
+[*] Finished: nc.exe > nc.bat
 
 Credits : Riftor, ninar1, BCK and ycam
