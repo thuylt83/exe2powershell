@@ -3,13 +3,13 @@
 
 exe2bat reborn in exe2powershell for modern Windows
 initial author ninar1, based on riftor work, and modernized by ycam
-exe2powershell - keep up to date : www.asafety.fr
+exe2powershell - keep up to date : www.asafety.fr / synetis.com
          
 Main code taken from Riftors "exe2hex".
 
 Adapted for Windows BAT file by ninar1.
 
-Modernized to newer Windows systems by Yann CAM (ycam - http://www.asafety.fr)
+Modernized to newer Windows systems by Yann CAM (ycam - http://www.asafety.fr | http://www.synetis.com)
 
 This version is modernized from exe2bat to work with modern Windows version.
 exe2bat have limitation :
@@ -32,7 +32,7 @@ C:\exe2powershell\bin>exe2powershell.exe
 
         [ exe2bat reborn in exe2powershell for modern Windows ]
  [ initial author ninar1, based on riftor work, and modernized by ycam ]
-    [ exe2powershell version 1.0 - keep up to date : www.asafety.fr ]
+ [ exe2powershell version 1.0 - keep up2date: asafety.fr / synetis.com ]
 
  [*] Usage : exe2powershell.exe inputfile outputfile
  [*] e.g.  : exe2powershell.exe nc.exe nc.bat
