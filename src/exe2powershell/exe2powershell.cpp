@@ -9,13 +9,13 @@
 
         [ exe2bat reborn in exe2powershell for modern Windows ]
  [ initial author ninar1, based on riftor work, and modernized by ycam ]
-         [ exe2powershell - keep up to date : www.asafety.fr ]
+ [ exe2powershell version 1.0 - keep up2date: asafety.fr / synetis.com ]
 
 exe2powershell.cpp
 
 Main code taken from Riftors "exe2hex" (riftor@sec33.com - http://home.graffiti.net/riftor615/)
 Adapted for Windows BAT file by ninar1.
-Modernized to newer Windows systems by Yann CAM (ycam - http://www.asafety.fr)
+Modernized to newer Windows systems by Yann CAM (ycam - http://www.asafety.fr | http://www.synetis.com)
 
     so credits 2 him
     also thx 2 BCK
@@ -56,7 +56,7 @@ void header(){
     printf(" |______/_/\\_\\___|____|_|   \\___/ \\_/\\_/ \\___|_| |_____/|_| |_|\\___|_|_|\n\n");
     printf("        [ exe2bat reborn in exe2powershell for modern Windows ]\n");
     printf(" [ initial author ninar1, based on riftor work, and modernized by ycam ]\n");
-    printf("    [ exe2powershell version %s - keep up to date : www.asafety.fr ]\n", VERSION);
+    printf(" [ exe2powershell version %s - keep up2date: asafety.fr / synetis.com ]\n", VERSION);
 }
 
 void usage(char** argv){
