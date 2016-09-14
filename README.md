@@ -2,6 +2,12 @@
 **exe2powershell - exe2bat reborn for modern Windows**
 
 exe2bat reborn in exe2powershell for modern Windows
+
+exe2powershell is used to convert any binary file (*.exe) to a BAT file.
+The resulting BAT file contains only "echo" command and finally a powershell command to re-create the original binary file.
+
+This kind of tool is usefull during pentesting when an auditor trigger a shell without any upload feature. With "echo" and "powershell" the auditor is able to "upload" any binary file on the targeted system.
+
 initial author ninar1, based on riftor work, and modernized by ycam
 exe2powershell - keep up to date : www.asafety.fr / synetis.com
          
