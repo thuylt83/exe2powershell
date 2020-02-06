@@ -1,0 +1,8 @@
+EV_PREFIX 	sd	 
+DRIVER 	qcow2
+
+
+remind moi nguoi khong vi pham dung tool crack / hack 
+
+co hinh phat 
+
